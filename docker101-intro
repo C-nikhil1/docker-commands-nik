@@ -1,11 +1,12 @@
-Docker engine is a virtulization layer over which containers created using the image and run.
+1. Hypervisor is also know as a virtual machine monitor(VMM), is a software that creates and run the virtual machines. 
+2. Hypervisor is directly on top of host OS which uses the resourse from host OS.
+3. Docker engine is a virtulization layer which is on top of hypervisor  over which containers running which are created using the images.
+4. Container is independent of the OS. This is the reason any application can run on any OS using container. However to run the container docker engine should be installed on host OS.
 
-Container is independent of the OS. This is the reason any application can run on any OS using container. However to run the container docker engine should be installed on host OS.
+5. There are three things reuqired to run the container.
 
-There are three things reuqired to run the container.
+	1. Docker file - Using this we can form a image with require dependecies
+	2. Docker images - Using this we can create a container
+	3. Container - This is light weight OS where application can run independently
 
-1. Docker file - Using this we can form a image with require dependecies
-2. Docker images - Using this we can create a container
-3. Container - This is light weight OS where application can run independently
-
-Docker Daemon - This is the background process which keeps the track of images, containers.
+6. Docker Daemon - This is the background process which keeps the track of images, containers.
