@@ -8,4 +8,4 @@ There are three things reuqired to run the container.
 2. Docker images - Using this we can create a container
 3. Container - This is light weight OS where application can run independently
 
-Docker Deamon - This is the background process which keeps the track of images, containers.
+Docker Daemon - This is the background process which keeps the track of images, containers.
